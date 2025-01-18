@@ -49,9 +49,9 @@ manajemen_produk/
 ## **Langkah Instalasi**
 **1. Kloning Repository**
 
-`git clone https://github.com/username/manajemen-produk.git`
+`git clone https://github.com/firhanaf/tes-junior-programmer.git`
 
-`cd manajemen-produk`
+`cd Fastprint`
 
 **2. Buat dan Aktifkan Virtual Environment**
 
@@ -74,7 +74,11 @@ manajemen_produk/
   - `DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'USER': config('DB_USER'),
+        'PASSWORD': config('DB_PASS'),
+        'PORT': config('DB_PORT'),
+        'HOST': config('DB_HOST'),
+        'NAME': config('DB_NAME'),
     }
 }`
 
@@ -113,7 +117,7 @@ Respon:
 
 Menampilkan daftar produk yang dapat dijual.
 
-
+![produk list]('produk list.png')
 
 **2. Halaman Tambah Produk**
 

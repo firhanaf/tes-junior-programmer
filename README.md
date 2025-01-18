@@ -139,7 +139,7 @@ Popup konfirmasi ketika akan menghapus produk
 
 ---
 
-## **[Demo Project](https://www.example.com)**
+## **[Demo Project](https://drive.google.com/file/d/1VzHsigioG7cvC_J5Z_4JeOeqXTvWN8R7/view?usp=sharing)**
 
 ---
 

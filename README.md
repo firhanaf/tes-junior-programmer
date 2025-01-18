@@ -9,7 +9,7 @@ Aplikasi ini dirancang untuk mengelola data produk, termasuk fitur menambah, men
 ---
 
 ## **Fitur Utama**  
-1. **Manajemen Produk**  
+1. **Manajemen Produk**
    - Tambah produk baru dengan informasi kategori dan status.  
    - Edit produk yang sudah ada.  
    - Hapus produk dengan konfirmasi.  
@@ -29,8 +29,8 @@ Aplikasi ini dirancang untuk mengelola data produk, termasuk fitur menambah, men
 ## **Struktur Proyek**
 
 ```plaintext
-manajemen_produk/
-├── produk/
+Fastprint/
+├── testfastprint/
 │   ├── migrations/
 │   ├── templates/
 │   │   ├── add_produk.html
@@ -41,7 +41,7 @@ manajemen_produk/
 │   ├── models.py
 │   ├── urls.py
 ├── manage.py
-├── manajemen_produk/
+├── Fastprint/
 │   ├── settings.py
 │   ├── urls.py
 │   ├── wsgi.py
@@ -67,11 +67,11 @@ manajemen_produk/
 
 **4. Konfigurasi Database**
   
-  - Edit file settings.py untuk menyesuaikan konfigurasi database.
+Edit file settings.py untuk menyesuaikan konfigurasi database. 
+
+Contoh konfigurasi default menggunakan MySQL:
   
-  - Contoh konfigurasi default menggunakan MySQL:
-  
-  - `DATABASES = {
+`DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'USER': config('DB_USER'),
@@ -113,33 +113,39 @@ Respon:
 ---
 
 ## **Screenshots**
-**1. Halaman Daftar Produk**
+## **1. Halaman Daftar Produk**
 
 Menampilkan daftar produk yang dapat dijual.
 
-![produk list]('produk list.png')
+![produk list](produk_list.jpg)
 
-**2. Halaman Tambah Produk**
+## **2. Halaman Tambah Produk**
 
 Form untuk menambahkan produk baru.
 
+![add_produk](add_produk.jpg)
 
-
-**3. Halaman Ubah Produk**
+## **3. Halaman Ubah Produk**
 
 Form untuk mengubah produk yang telah ada
 
+![edit_produk](edit_produk.jpg)
 
-
-**4. Konfirmasi Hapus Produk**
+## **4. Konfirmasi Hapus Produk**
 
 Popup konfirmasi ketika akan menghapus produk
 
-
+![hapus_produk](hapus_produk.jpg)
 
 ---
 
-**Kontak**
+## **[Demo Project](https://www.example.com)**
+
+---
+
+---
+
+### **Kontak**
 
 Jika Anda memiliki pertanyaan atau saran, silakan hubungi:
 
